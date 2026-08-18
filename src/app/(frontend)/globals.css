@@ -87,79 +87,106 @@
 }
 
 :root {
-  --background: oklch(100% 0 0deg);
-  --foreground: oklch(14.5% 0 0deg);
-  --card: oklch(96.5% 0.005 265deg);
-  --card-foreground: oklch(14.5% 0 0deg);
-  --popover: oklch(100% 0 0deg);
-  --popover-foreground: oklch(14.5% 0 0deg);
-  --primary: oklch(20.5% 0 0deg);
-  --primary-foreground: oklch(98.5% 0 0deg);
-  --secondary: oklch(97% 0 0deg);
-  --secondary-foreground: oklch(20.5% 0 0deg);
-  --muted: oklch(97% 0 0deg);
-  --muted-foreground: oklch(55.6% 0 0deg);
-  --accent: oklch(97% 0 0deg);
-  --accent-foreground: oklch(20.5% 0 0deg);
+  /* Mapped Brand Palette */
+  /* #FAF8F5 Crisp Cream */
+  --background: oklch(98.2% 0.005 85.1deg);
+  /* #1C2A3A Deep Navy */
+  --foreground: oklch(26.5% 0.035 240.2deg);
+
+  --card: oklch(96.5% 0.008 85.1deg);
+  --card-foreground: oklch(26.5% 0.035 240.2deg);
+  --popover: oklch(98.2% 0.005 85.1deg);
+  --popover-foreground: oklch(26.5% 0.035 240.2deg);
+
+  /* #2A5242 Adventure Pine Green */
+  --primary: oklch(40.2% 0.058 161.4deg);
+  --primary-foreground: oklch(98.2% 0.005 85.1deg);
+
+  /* #F5B027 Waypoint Amber Gold */
+  --secondary: oklch(78.5% 0.163 80.2deg);
+  --secondary-foreground: oklch(26.5% 0.035 240.2deg);
+
+  /* #38B6FF Skyline Cyan */
+  --accent: oklch(74.8% 0.147 232.8deg);
+  --accent-foreground: oklch(26.5% 0.035 240.2deg);
+
+  --muted: oklch(94% 0.008 85.1deg);
+  --muted-foreground: oklch(48% 0.03 240.2deg);
   --destructive: oklch(57.7% 0.245 27.325deg);
-  --destructive-foreground: oklch(57.7% 0.245 27.325deg);
-  --border: oklch(92.2% 0 0deg);
-  --input: oklch(92.2% 0 0deg);
-  --ring: oklch(70.8% 0 0deg);
-  --chart-1: oklch(64.6% 0.222 41.116deg);
-  --chart-2: oklch(60% 0.118 184.704deg);
-  --chart-3: oklch(39.8% 0.07 227.392deg);
-  --chart-4: oklch(82.8% 0.189 84.429deg);
-  --chart-5: oklch(76.9% 0.188 70.08deg);
+  --destructive-foreground: oklch(98.2% 0.005 85.1deg);
+  --border: oklch(90% 0.01 85.1deg);
+  --input: oklch(90% 0.01 85.1deg);
+  --ring: oklch(40.2% 0.058 161.4deg);
+
+  --chart-1: oklch(78.5% 0.163 80.2deg); /* Gold */
+  --chart-2: oklch(40.2% 0.058 161.4deg); /* Pine Green */
+  --chart-3: oklch(74.8% 0.147 232.8deg); /* Cyan */
+  --chart-4: oklch(60% 0.12 180deg);
+  --chart-5: oklch(70% 0.14 50deg);
+
   --radius: 0.625rem;
-  --sidebar: oklch(98.5% 0 0deg);
-  --sidebar-foreground: oklch(14.5% 0 0deg);
-  --sidebar-primary: oklch(20.5% 0 0deg);
-  --sidebar-primary-foreground: oklch(98.5% 0 0deg);
-  --sidebar-accent: oklch(97% 0 0deg);
-  --sidebar-accent-foreground: oklch(20.5% 0 0deg);
-  --sidebar-border: oklch(92.2% 0 0deg);
-  --sidebar-ring: oklch(70.8% 0 0deg);
+  --sidebar: oklch(96.5% 0.008 85.1deg);
+  --sidebar-foreground: oklch(26.5% 0.035 240.2deg);
+  --sidebar-primary: oklch(40.2% 0.058 161.4deg);
+  --sidebar-primary-foreground: oklch(98.2% 0.005 85.1deg);
+  --sidebar-accent: oklch(78.5% 0.163 80.2deg);
+  --sidebar-accent-foreground: oklch(26.5% 0.035 240.2deg);
+  --sidebar-border: oklch(90% 0.01 85.1deg);
+  --sidebar-ring: oklch(40.2% 0.058 161.4deg);
+
   --success: oklch(78% 0.08 200deg);
   --warning: oklch(89% 0.1 75deg);
   --error: oklch(75% 0.15 25deg);
 }
 
 [data-theme='dark'] {
-  --background: oklch(14.5% 0 0deg);
-  --foreground: oklch(98.5% 0 0deg);
-  --card: oklch(17% 0 0deg);
-  --card-foreground: oklch(98.5% 0 0deg);
-  --popover: oklch(14.5% 0 0deg);
-  --popover-foreground: oklch(98.5% 0 0deg);
-  --primary: oklch(98.5% 0 0deg);
-  --primary-foreground: oklch(20.5% 0 0deg);
-  --secondary: oklch(26.9% 0 0deg);
-  --secondary-foreground: oklch(98.5% 0 0deg);
-  --muted: oklch(26.9% 0 0deg);
-  --muted-foreground: oklch(70.8% 0 0deg);
-  --accent: oklch(26.9% 0 0deg);
-  --accent-foreground: oklch(98.5% 0 0deg);
-  --destructive: oklch(39.6% 0.141 25.723deg);
-  --destructive-foreground: oklch(63.7% 0.237 25.331deg);
-  --border: oklch(26.9% 0 0deg);
-  --input: oklch(26.9% 0 0deg);
-  --ring: oklch(43.9% 0 0deg);
-  --chart-1: oklch(48.8% 0.243 264.376deg);
-  --chart-2: oklch(69.6% 0.17 162.48deg);
-  --chart-3: oklch(76.9% 0.188 70.08deg);
+  /* #1C2A3A Deep Navy */
+  --background: oklch(26.5% 0.035 240.2deg);
+  /* #FAF8F5 Crisp Cream */
+  --foreground: oklch(98.2% 0.005 85.1deg);
+
+  --card: oklch(31% 0.035 240.2deg);
+  --card-foreground: oklch(98.2% 0.005 85.1deg);
+  --popover: oklch(26.5% 0.035 240.2deg);
+  --popover-foreground: oklch(98.2% 0.005 85.1deg);
+
+  /* #F5B027 Waypoint Amber Gold (Pops better on dark) */
+  --primary: oklch(78.5% 0.163 80.2deg);
+  --primary-foreground: oklch(26.5% 0.035 240.2deg);
+
+  /* #2A5242 Adventure Pine Green */
+  --secondary: oklch(40.2% 0.058 161.4deg);
+  --secondary-foreground: oklch(98.2% 0.005 85.1deg);
+
+  /* #38B6FF Skyline Cyan */
+  --accent: oklch(74.8% 0.147 232.8deg);
+  --accent-foreground: oklch(26.5% 0.035 240.2deg);
+
+  --muted: oklch(33% 0.03 240.2deg);
+  --muted-foreground: oklch(75% 0.02 240.2deg);
+  --destructive: oklch(50% 0.2 25deg);
+  --destructive-foreground: oklch(98.2% 0.005 85.1deg);
+  --border: oklch(35% 0.03 240.2deg);
+  --input: oklch(35% 0.03 240.2deg);
+  --ring: oklch(78.5% 0.163 80.2deg);
+
+  --chart-1: oklch(78.5% 0.163 80.2deg);
+  --chart-2: oklch(74.8% 0.147 232.8deg);
+  --chart-3: oklch(52% 0.08 161.4deg);
   --chart-4: oklch(62.7% 0.265 303.9deg);
   --chart-5: oklch(64.5% 0.246 16.439deg);
-  --sidebar: oklch(20.5% 0 0deg);
-  --sidebar-foreground: oklch(98.5% 0 0deg);
-  --sidebar-primary: oklch(48.8% 0.243 264.376deg);
-  --sidebar-primary-foreground: oklch(98.5% 0 0deg);
-  --sidebar-accent: oklch(26.9% 0 0deg);
-  --sidebar-accent-foreground: oklch(98.5% 0 0deg);
-  --sidebar-border: oklch(26.9% 0 0deg);
-  --sidebar-ring: oklch(43.9% 0 0deg);
-  --success: oklch(28% 0.1 200deg);
-  --warning: oklch(35% 0.08 70deg);
+
+  --sidebar: oklch(23% 0.035 240.2deg);
+  --sidebar-foreground: oklch(98.2% 0.005 85.1deg);
+  --sidebar-primary: oklch(78.5% 0.163 80.2deg);
+  --sidebar-primary-foreground: oklch(26.5% 0.035 240.2deg);
+  --sidebar-accent: oklch(33% 0.03 240.2deg);
+  --sidebar-accent-foreground: oklch(98.2% 0.005 85.1deg);
+  --sidebar-border: oklch(35% 0.03 240.2deg);
+  --sidebar-ring: oklch(78.5% 0.163 80.2deg);
+
+  --success: oklch(35% 0.1 200deg);
+  --warning: oklch(40% 0.1 75deg);
   --error: oklch(45% 0.1 25deg);
 }
 
