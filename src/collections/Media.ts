@@ -39,8 +39,6 @@ export const Media: CollectionConfig = {
     },
   ],
   upload: {
-    // Remove staticDir entirely, or set staticDir: true/disableLocalStorage
-    disableLocalStorage: true,
     adminThumbnail: 'thumbnail',
     focalPoint: true,
     imageSizes: [
